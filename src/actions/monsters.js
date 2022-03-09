@@ -10,7 +10,6 @@ const setMonsters = (monsters) => ({
 
 const getFiltered = (filter) => (dispatch) => {
   dispatch(setMonsters([]));
-//   const newFilter = filter.replace("").toLowerCase();
   getMonsters().then((monsters) => {
     dispatch(setMonsters(monsters.filter((monster) => monster.id)));
   });
