@@ -1,0 +1,65 @@
+.navbar {
+      background-color: #1b6fcf;
+    }
+    
+    .filter-input {
+      width: 40%;
+    }
+    
+    .monsterCardContainer{
+      max-width: 100%;
+    }
+    
+    .monsterCardDark {
+      background-color: #4167ce;
+    }
+    
+    .monsterCardLight {
+      background-color: #fd5294;
+    }
+    
+    .monsterCardStyle {
+      height: 20vh;
+      text-align: center;
+      font-weight: bold;
+    }
+    
+    .nameDisplay {
+      font-size: 1.4rem;
+    }
+    
+    .detailsContainer {
+      display: none;
+    }
+    
+    .monsterDetails {
+      max-width: 100vw;
+      height: 100vh;
+      font-size: 1.3rem;
+    }
+    
+    .monsterDetails .nameDisplay {
+      position: relative;
+      top: -1.7rem;
+      font-size: 2rem;
+    }
+    
+    .monsterDetails .detailsContainer {
+      max-width: 100vw;
+      border-top: 10px solid #1b6fcf;
+      background-color: #4167ce;
+      display: block;
+    }
+    
+    .ResetBtn {
+      background-color: transparent;
+      padding: 6px 9px;
+    }
+    
+    .btnBack {
+      border: 2px solid white;
+      position: relative;
+      top: 1rem;
+      left: -42%;
+      height: 2.5rem;
+    }
